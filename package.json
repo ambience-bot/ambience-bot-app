@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
     "test:watch": "npm run test -- --watch",
-    "start": "node -r dotenv/config server.js",
+    "start": "node -r dotenv/config index.js",
     "start:watch": "nodemon -r dotenv/config server.js",
     "setup-db": "node -r dotenv/config setup-db.js",
     "setup-heroku": "heroku run npm run setup-db"
@@ -35,6 +35,7 @@
     "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.3.0",
+    "opusscript": "^0.0.8",
     "pg": "^8.6.0",
     "ytdl-core": "^4.5.0"
   }
