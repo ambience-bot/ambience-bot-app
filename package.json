@@ -42,5 +42,9 @@
     "opusscript": "^0.0.8",
     "pg": "^8.6.0",
     "ytdl-core": "^4.5.0"
-  }
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
+}
+
 }
