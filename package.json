@@ -3,17 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
-    "test:watch": "npm run test -- --watch",
-    "start": "node -r dotenv/config server.js",
-    "start:watch": "nodemon -r dotenv/config server.js",
-    "setup-db": "node -r dotenv/config setup-db.js",
-    "setup-heroku": "heroku run npm run setup-db"
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "engines": {
     "node": "14.15.4",
     "npm": "*"
@@ -31,7 +20,6 @@
     "@discordjs/opus": "^0.5.0",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.3.0",
     "opusscript": "^0.0.8",
@@ -39,6 +27,5 @@
   },
   "optionalDependencies": {
     "fsevents": "^2.1.2"
-}
-
+  }
 }
