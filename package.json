@@ -31,7 +31,7 @@
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^4.3.0",
     "opusscript": "^0.0.8",
-    "ytdl-core": "^4.5.0"
+    "ytdl-core": "^4.9.1"
   },
   "optionalDependencies": {
     "fsevents": "^2.1.2"
